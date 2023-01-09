@@ -1,0 +1,10 @@
+{
+    "id": "warranty",
+    "title": "Warranty",
+    "description": "The warranty contract manages NFTs that represent warranty ownership and validity.",
+    "sourceUrl": "https://unstop.com/hackathon/flipkart-grid-40-software-development-challenge-flipkart-grid-40-flipkart-348170",
+    "contract": {
+        "address": "contract address goes here", 
+        "lang": "Camel"
+    }
+}

@@ -1,0 +1,229 @@
+@font-face {
+  font-family: 'warranty';
+  src: local('warranty'), url('./warranty.ttf') format('truetype');
+  font-weight: normal;
+}
+
+.warrantyApp {
+    width: 100vw;
+    height: 100vh;
+}
+
+.warrantyApp button {
+  padding: 0.9rem 1.5rem;
+  width: 9rem;
+  border-radius: 100px;
+  background: #3498db;
+  color: #fff;
+  border: none;
+}
+
+.warrantyApp input {
+  border-radius: 15px;
+  padding: 1rem 1.5rem;
+  font-family: warranty;
+  font-size: 1.5rem;
+}
+
+.warrantyApp input,
+.warrantyApp select {
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  border-radius: 15px;
+  border: none;
+}
+
+.warrantyApp label {
+  color: #eee;
+}
+
+.inputBox {
+  width: 18em;
+}
+
+/* 
+   Tables
+*/
+.warrantyApp table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.warrantyApp td, 
+.warrantyApp th {
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 8px;
+
+  /* Truncate overflowing text */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.warrantyApp td.textCentered {
+  text-align: center;
+}
+
+.warrantyApp td.smallCol, 
+.warrantyApp th.smallCol {
+  max-width: 13em;
+}
+
+/* Alternate the row colors in the table */
+.warrantyApp tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.warrantyApp tr:nth-child(odd) {
+  background-color: #eee;
+}
+/* 
+   Tables
+*/
+
+
+.wrapper {
+  background-image: linear-gradient(90deg, #30526f 0.2%, #2f4773 99.8%);
+}
+
+.horizontalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.verticalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerContainer {
+  border: none;
+  box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.16);
+  margin: auto;
+  padding: 4em;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  border-radius: 33px;
+  background: rgba(0, 0, 0, 0.4);
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.panelContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  font-family: Helvetica;
+}
+
+.opForm {
+  display: flex;
+  width: 100%;
+  padding: 1.25rem 0 0;
+  border-radius: 0.375rem;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+.opForm > div > input {
+  padding: 1rem 1.5rem;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 0.25em;
+}
+.opForm > div > select {
+  margin: 0 1em;
+  font-family: Helvetica;
+}
+.opForm > div > label {
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+  margin-right: 1em;
+}
+
+.panelContainer > button {
+  border-radius: 15px;
+  background: rgba(244, 171, 65, 0.85);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* 
+   Tabs 
+*/
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  padding: 0.9rem 1.5rem;
+  border-radius: 100px;
+  background: #bbb;
+  color: #fff;
+  border: none;
+  margin: 0.25em;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #dbac35;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.tablinks {
+    /* No styling for tablinks */
+}
+
+/* 
+   Tabs
+*/
+
+/*  Reponsive Style*/
+@media (min-width: 640px) {
+  .horizontalContainer {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .horizontalContainer {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .horizontalContainer {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .horizontalContainer {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .horizontalContainer {
+    max-width: 1536px;
+  }
+}

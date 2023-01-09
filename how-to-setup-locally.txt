@@ -1,0 +1,10 @@
+//Present working directory = project directory
+npm install -g truffle@tezos
+npm install
+cd web && npm install
+cd ..
+
+//Run
+yarn web:dev
+
+//Already done in my system
